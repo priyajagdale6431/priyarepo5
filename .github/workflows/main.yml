@@ -1,8 +1,8 @@
-name: Run Python Program
+name: Run python job
 on:
     push:
         branches:
-              - main
+        - main
 jobs:
    ci-pipeline:
        runs_on: ubuntu-latest
